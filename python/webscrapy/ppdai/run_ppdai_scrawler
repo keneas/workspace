@@ -1,4 +1,0 @@
-#!/bin/bash
-scrapy crawl ppdaispider
-sleep $[($RANDOM % 5)+5]s
-exec $0
